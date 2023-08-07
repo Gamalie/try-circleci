@@ -3,7 +3,6 @@ function mostAppearing(str) {
       let count = [];
 
       for (let i = 0; i < str.length; i++) {
-
             let char = str[i];
 
             count[char] = count[char] + 1 || 1;
@@ -30,7 +29,5 @@ function mostAppearing(str) {
       return mostappearing;
 
 }
-
-
-
-module.exports = {mostAppearing}
+// console.log(mostAppearing('salllyyyyyy'));
+module.exports = { mostAppearing }
